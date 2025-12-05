@@ -36,21 +36,34 @@
             </div>
 
             <div>
+                <fieldset>
+                    <legend>Προσωπικά Στοιχεία</legend>
                 <div>
-                    <label for="fldFirstName">Όνομα</label>
-                    <input type="text" name="Firstname" id="fldFirstName" placeholder="Συμπληρώστε Όνομα" minlength="5" maxlength="15" required>
-                </div>    
+                    <div>
+                        <label for="fldFirstName">Όνομα</label>
+                        <input type="text" name="Firstname" id="fldFirstName" placeholder="Συμπληρώστε Όνομα" minlength="5" maxlength="15" required>
+                    </div>   
+                </div>
+
+                <div>
+                    <label for="fldemail">Email</label>
+                    <input type="email" name="email" id="fldemail">
+                </div>
+
+                <div>
+                    <label for="fldWorkExperience">Χρόνια Προϋπηρεσίας</label>
+                    <input type="number" name="WorkExperience" id="fldWorkExperience" min="3" max="20">
+                </div>
+                </fieldset>
             </div>
+            
 
             <div>
-                <label for="fldemail">Email</label>
-                <input type="email" name="email" id="fldemail">
+                <label for="fldMessage">Γράψτε το μήνυμα σας</label>
+                <textarea name="message" id="fldMessage" rows="10" cols="50">  </textarea>
             </div>
 
-            <div>
-                <label for="fldWorkExperience">Χρόνια Προϋπηρεσίας</label>
-                <input type="number" name="WorkExperience" id="fldWorkExperience" min="3" max="20">
-            </div>
+
         </div>    
     </form>
 </body>
