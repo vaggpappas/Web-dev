@@ -1,0 +1,22 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 3s ease-in;
+    margin-bottom: 10px;
+}
+
+.box1:hover {
+    width: 500px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: width 3s steps(6, end);
+}
+
+.box2:hover {
+    width: 500px;
+}
