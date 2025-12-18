@@ -1,0 +1,10 @@
+.container {
+  border:1px solid black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  display: inline-block;
+}
