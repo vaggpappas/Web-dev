@@ -1,0 +1,12 @@
+.container-grid1 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+div[class^="grid"] {
+    border: 1px solid red;
+}
+
+div[class^="container"] {
+    margin-top: 20px;
+}
