@@ -31,7 +31,21 @@
           <li><a href="#">We Are</a></li>
         </ul>
       </nav>
+
+      <div class="navbar-toggler">
+        <button type="button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
     </header>
+
+    <div class="menu-toggler">
+      <ul>
+        <li><a href="">menu 1</a></li>
+        <li><a href="">menu 2</a></li>
+      </ul>
+    </div>
+
 
     <!-- Image Slider -->
     <div class="home-img">
@@ -66,6 +80,21 @@
       <i class="fa-brands fa-linkedin"></i>
     </div>
    </footer>
+
+  <script>
+    const img = document.querySelector('.home-img')
+    const toggleBtn = document.querySelector('.navbar-toggler')
+    const navbarToggle = document.querySelector('.menu-toggler')
+    const main = document.getElementsByTagName('main')
+    const footer = document.getElementsByTagName('footer')
+
+    toggleBtn.addEventListener('click', function() {
+        img.classList.toggle('hidden')
+        navbarToggle.classList.toggle('show')
+        main.classList.toggle('hidden')
+        footer.classList.toggle('hidden')
+    })
+  </script>
 
 </body>
 </html>

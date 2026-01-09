@@ -65,7 +65,7 @@ nav > ul >li:last-of-type {
   list-style: none;
 
   flex-direction: column;
-  
+
 }
 
 .home-img {
@@ -111,4 +111,23 @@ footer {
   align-items: center;
   color: white;
   padding: 0 10px;
+}
+
+.navbar-toggler {
+  display: none;
+  margin-right: 40px;
+}
+
+.menu-toggler {
+  display:none;
+}
+
+@media (max-width:992px) {
+  nav {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
 }
