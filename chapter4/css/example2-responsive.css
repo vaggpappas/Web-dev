@@ -1,0 +1,27 @@
+/* Large */
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* XLarge */
+@media (min-width: 1201px) and (max-width: 1400px) {
+    body {
+        background-color: red;
+    }    
+}
+
+/* XXLarge */
+@media (min-width: 1401px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* XSmall, Small & Medium */
+@media (max-width: 991px) {
+    body {
+        background-color: yellow;
+    }    
+}
