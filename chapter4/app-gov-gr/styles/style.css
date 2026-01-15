@@ -108,6 +108,10 @@ nav {
     font-size: 1rem;
 }
 
+.font-size-075 {
+    font-size: 0.75rem;
+}
+
 .text-lightgrey-200 {
     color: var(--lightgrey-200);
 }
@@ -120,12 +124,25 @@ nav {
     color: var(--blue);
 }
 
+.text-yellow {
+    color: var(--yellow);
+}
+
 .text-center {
     text-align: center;
 }
 
 .text-decoration-none {
     text-decoration: none;
+}
+
+main {
+    flex: 80%;
+    height: calc(100vh - 105px);
+}
+
+aside {
+    flex: 20%;
 }
 
 /* Footer Styling */
