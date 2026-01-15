@@ -71,7 +71,7 @@ nav > ul >li:last-of-type {
 .home-img {
   overflow: hidden;
   height: calc(97vh - 120px);
-  background-image: url('../../img/tep-aueb.jpg');
+  background-image: url('../../images/tep-aueb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
