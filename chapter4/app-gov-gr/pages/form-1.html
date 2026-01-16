@@ -51,13 +51,48 @@
             </p>
         </aside>
         <main>
-            <section>
-                <h1>
+            <section class="p-1">
+                <h1 class="text-center font-size-2 mb-2 mt-2">
                     Υποβολή Δήλωσης Καθαρισμού Οικοπέδου
                 </h1>
-                <div>
-                    
+                <div class="d-flex flex-row align-center">
+                    <div>
+                        <p><span class="stepper-circle d-block m-auto active">1</span></p>
+                        <p>Στοιχεία Οικοπέδου</p>
+                    </div>
+                    <div class="flex-grow-1">
+                        <span class="stepper-border-bottom"></span>
+                    </div>
+                    <div>
+                        <p><span class="stepper-circle d-block m-auto">2</span></p>
+                        <p>Στοιχεία Ιδιοκτήτη</p>
+                    </div>
+                   <div class="flex-grow-1">
+                        <span class="stepper-border-bottom"></span>
+                    </div>
+                    <div>
+                        <p><span class="stepper-circle d-block m-auto">3</span></p>
+                        <p>Ενέργειες Πυρασφάλειας</p>
+                    </div>        
                 </div>
+            </section>
+            <section class="p-1">
+                <h2 class="text-center font-size-2 mb-2 mt-2">
+                    Στοιχεία Οικοπέδου
+                </h2>
+                <p class="border border-lightgrey-300 bg-lightgrey-200 p-1 text-lightgrey-500">Παρακαλώ εισάγετε στοιχεία οικοπέδου</p>
+                <form action="">
+                    <div>
+                        <span>
+                            <strong>Ενοπισμός Οικοπέδου:</strong>
+                        </span>
+                        <input type="radio" checked name="fieldRadio" id="kaek">
+                        <label for="kaek">KAEK</label>
+                        <input type="radio" name="fieldRadio" id="coordinates">
+                        <label for="coordinates">Συντεταγμένες (x, y)</label>
+                        <span>i</span>
+                    </div>
+                </form>
             </section>
         </main>
     </div>
